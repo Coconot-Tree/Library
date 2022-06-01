@@ -2,46 +2,47 @@
 <html>
 <head>
 	<title> Sign In | PUP Thesis Respository</title>
-	<link rel="stylesheet" type="text/css" href="style.css">
+	<link rel="stylesheet" type="text/css" href="../../PUP Thesis Respository/style.css">
     <link rel="icon" href="images/3.png" type="image/icon type">
 	<meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 </head>
 <body>
-
+<div class ="stickybar"> 
 <div class="topnav">
     <a href="contact.html">Contact Us</a>
-    <a href="myaccount.html">My Account</a>
+    <a href="account.html">My Account</a>
     <a href="about.html">About</a>
     <a href="home.html">Home</a>
 </div>
 
-<div class="banner">
+<a href="home.html"><div class="banner">
     <img src="images/3.png">
     <h1>PUP Thesis Repository</h1>
+</div></a>
 </div>
 
+
 <div class="row">
-    <div class="column left">
+    <div class="column left stickyleft">
         <div class="search">
             <h2>Search</h2> <hr>
             <form action="/action_page.php" class="searchbar">
                 <input type="text" placeholder="Search keyword" name="search">
                 <button type="submit">Search</button>
             </form>
-            <li><a href="#">Advanced Search Option</a></li>
+            <li><a href="advance.html">Advanced Search Option</a></li>
         </div>
         <div class="browse">
             <h2>Browse</h2><hr>
-                <li><a href="collection.html">Collections</a></li>
-                <li><a href="discipline.html">Disciplines</a></li>
-                <li><a href="program.html">Program</a></li>
-                <li><a href="author.html">Authors</a></li>
+            <li><a href="../browse/discipline/discipline.html">Disciplines</a></li>
+            <li><a href="../browse/college-and-unit/colleges-and-unit.html">Colleges and Units</a></li>
+            <li><a href="../browse/author/author.html">Authors</a></li>
         </div>
     </div>
 
     <div class="column right">
-        <div class="card">
+        <div class="card loginform">
             <h3 >Login</h3>
             <div class="login">
                 <form action="action_page.php" method="post">
