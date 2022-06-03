@@ -307,13 +307,12 @@ summary::-webkit-details-marker {
 .bookmark{
     box-shadow: none;
     border-style: outset;
-    background-color: #F5F5F5;
-    margin: 30px auto;
+    background-color: #EBEBEB;
+    margin: 10px auto 20px auto ;
 }
 
 .bookmark a:hover{
     text-decoration: none;
-
 }
 
 .bookmark #title{
@@ -326,8 +325,37 @@ summary::-webkit-details-marker {
     color: #000;
 }
 
-/**log out button**/
+/**thesis page**/
 
-.logout:hover{
-    background-color: #A1231E;
+.thesis hr {
+    margin: 10px;
 }
+
+.thesis-info {
+    padding: 20px;
+}
+
+.details{
+    padding-top: 20px;
+    text-align: center;
+}
+
+.abstract p {
+    padding: 20px;
+    font-style: italic;
+}
+
+.thesis-comment {
+    padding: 20px;
+}
+
+.commentbox {
+    margin: 20px 50px 20px 50px;
+    padding: 10px 20px 10px 20px;
+    background-color: #E0E0E0;
+}
+
+.commentbox p{
+    padding: 10px 0 0 20px;
+}
+
