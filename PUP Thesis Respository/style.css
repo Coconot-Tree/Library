@@ -298,6 +298,21 @@ summary::-webkit-details-marker {
 .sublist ul{
     padding-bottom: 10px;
 }
+/** admin profile **/
+
+.upload {
+    margin-left: 70%;
+    width: 20%;
+    height: 40px;
+    padding: 5px;
+    color: white;
+    background-color: #730702;
+    border: none;
+}
+
+.upload:hover{
+    background-color:#A1231E;
+}
 
 /** profile **/
 .profile {
@@ -358,4 +373,3 @@ summary::-webkit-details-marker {
 .commentbox p{
     padding: 10px 0 0 20px;
 }
-
