@@ -228,41 +228,6 @@ body {
     padding-bottom: 2px 0;
 }
 
-.login button {
-    margin: 10px 20%;
-    width: 60%;
-    height: 40px;
-    background-color: #730702;
-    padding: 5px;
-    color: white;
-}
-
-.login button:hover{
-    background-color: #A1231E;
-}
-
-.login input[type=text]{
-    margin: 0px 20% 0 20%;
-    width: 60%;
-    height: 40px;
-    padding: 5px;
-}
-
-.login input[type=password]{
-    margin: 0px 20% 0 20%;
-    width: 60%;
-    height: 40px;
-    padding: 5px;
-}
-
-.loginform li {
-    padding: 10px 0 0 10px;
-}
-.forgot p {
-    text-align: center;
-    padding-bottom: 10px;
-}
-
 /* expandable */
 details {
     user-select: none;
@@ -332,4 +297,37 @@ summary::-webkit-details-marker {
 
 .sublist ul{
     padding-bottom: 10px;
+}
+
+/** profile **/
+.profile {
+    padding: 10px;
+}
+
+.bookmark{
+    box-shadow: none;
+    border-style: outset;
+    background-color: #F5F5F5;
+    margin: 30px auto;
+}
+
+.bookmark a:hover{
+    text-decoration: none;
+
+}
+
+.bookmark #title{
+    padding: 5px 0 5px 0;
+    color: #730702;
+}
+
+.bookmark #summary{
+    padding: 20px 5px 0 5px;
+    color: #000;
+}
+
+/**log out button**/
+
+.logout:hover{
+    background-color: #A1231E;
 }
